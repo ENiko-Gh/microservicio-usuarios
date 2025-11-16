@@ -9,4 +9,9 @@ Route::post('/login',    [AuthController::class, 'login']);
 Route::middleware('auth:sanctum')->group(function () {
     Route::post('/logout', [AuthController::class, 'logout']);
     Route::get('/me',      [AuthController::class, 'me']);
+    
+});
+
+Route::middleware(['auth:sanctum', 'role:admin'])->get('/admin', function () {
+    return response()->json(['message' => 'Solo administradores pueden ver esto']);
 });
