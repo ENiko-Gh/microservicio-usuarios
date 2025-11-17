@@ -71,6 +71,16 @@ adecuacion del entorno
 - **Perfil autenticado** (`/me`) para consulta de datos propios.  
 - **Middleware de roles** (`role:admin|editor|user`) reusable por otros servicios.
 
+ #### Instalacion
+![Middleware](assets/Middleware.png)
+
+ #### roles
+![Role Middleware](assets/RoleMiddleware.png)
+ #### ruta
+![Route Middleware](assets/Routemiddleware.png)
+
+
+
 ---
 
 ### 4. Modelo de Datos  
