@@ -75,7 +75,7 @@ adecuacion del entorno
 ![Middleware](assets/Middleware.png)
 
  #### roles
-![Role Middleware](assets/RoleMiddleware.png)
+![Role Middleware](assets/RoleMiddleware1.png)
  #### ruta
 ![Route Middleware](assets/Routemiddleware.png)
 
