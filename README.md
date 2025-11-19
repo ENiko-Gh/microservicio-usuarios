@@ -27,7 +27,7 @@
 ### 1. Objetivo  
 Proveer un servicio autónomo de identidad que centralice el **registro**, **autenticación** y **control de acceso** basado en roles (`admin`, `editor`, `user`) para el ecosistema de microservicios del blog.  
 El componente emite tokens seguros (Laravel Sanctum) que el resto de servicios (Posts, Comentarios, Notificaciones) puede validar sin dependencia de sesiones compartidas.
-
+Además, incluirá mecanismos para renovación de tokens, revocación, auditoría de accesos y fortalecimiento de políticas de seguridad, garantizando la integridad, escalabilidad y coherencia del modelo de identidad a medida que la plataforma crezca. 
 ---
 
 ### 2. Stack Tecnológico  
